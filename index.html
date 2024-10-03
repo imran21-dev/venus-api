@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="overflow-y-scroll bg-neutral-500/70 ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venus</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="shortcut icon"
+      href="assets/venusLogo-01.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        *{
+        scroll-behavior: smooth;
+        transition: .3s ease-in-out;
+        }
+   
+    </style>
+  </head>
+  <body class="font-[Roboto] bg-white ">
+    <header class="px-5">
+      <nav class=" pb-2 ">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start w-max flex items-center">
+            <img
+              class="w-10 saturate-200 "
+              src="assets/venusLogo-01.png"
+              alt=""
+            />
+            <h2 style="font-family: Fjalla One;" class="text-[22px]">Venus</h2>
+          </div>
+          <div class="navbar-center flex-1 flex items-center justify-center">
+            <input id="searchInput" type="text" placeholder="Search" class="input input-bordered w-2/5 rounded-full focus:outline-none focus:border-[#FF3EFF] transition-none" />
+          </div>
+          <div class="navbar-end  w-max">
+             <button onclick="filterBtn()" class="btn text-base flex items-center px-7 py-2 rounded-full min-h-0 h-max hover:bg-[#FF3EFF]/20 hover:border-[#FF3EFF]">Filter</button>
+          </div>
+        </div>
+      </nav>
+      <nav id="btnNav" class="flex gap-2 justify-center py-3">
+        <button id="allBtn" class="btn text-base flex items-center px-7 py-2 rounded-full min-h-0 h-max hover:bg-[#FF3EFF]/20 bg-[#FF3EFF]/20 hover:border-[#FF3EFF]">All</button>
+      </nav>
+    </header>
+
+    <main id="main" class="">
+      
+            
+
+
+   
+         
+
+    </main>
+    <!-- modal -->
+<!-- Open the modal using ID.showModal() method -->
+  <section id="modalSection">
+
+
+    
+ 
+  </section>
+    <script src="script/script.js"></script>
+  </body>
+</html>
